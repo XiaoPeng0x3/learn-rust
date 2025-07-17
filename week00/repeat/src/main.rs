@@ -10,5 +10,5 @@ use std::io;
     let mut input = String::new();
     // 从输入中读取
     io::stdin().read_line(&mut input).expect("读取失败！");
-    println!("{}", input);
+    println!("{input}" );
 }
